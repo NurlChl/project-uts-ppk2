@@ -307,6 +307,105 @@ footer .foot div ul .fa {
     }
 
 
+    section {
+        background-color: #E6DACE;
+        background: linear-gradient(to right, #E6DACE 45%, white 0%);
+        padding: 10rem 5rem;
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    section .foto {
+        background-color: #F4ECE6;
+        /* margin-left: 15%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: -9px 9px 16px 0px rgba(0,0,0,0.20);
+    }
+    
+    section .foto div {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        justify-content: center;
+        padding: 2rem 3rem;
+        gap: 2rem;
+    }
+    
+    section .foto div img {
+        width: 8rem;
+        height: 8rem;
+        object-fit: cover;
+        border-radius: 100%;
+        margin: 0 auto;
+        cursor: zoom-in;
+    }
+    section .foto div img:hover {
+        transform: scale(2);
+        transition: all 1s ease-in-out .5s;
+    }
+    
+    section .foto div h1 {
+        width: 5rem;
+        margin: 0 auto;
+        text-align: center;
+        font-family: 'poppins';
+        font-weight: 800;
+    }
+    
+    section .foto div li {
+        margin: 0 auto;
+        width: 3rem;
+        border-bottom: 2px solid blue;
+    }
+    
+    section .foto div p {
+        text-align: center;
+        letter-spacing: .5rem;
+    }
+    
+    section .foto ul {
+        gap: 2rem;
+        padding: 1rem;
+       
+    }
+    
+    section .foto .fa {
+        font-size: 1.3rem;
+    }
+    
+    section .desc {
+        gap: 1rem;
+        width: 25rem;
+    }
+    
+    section .desc h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    section .desc h4 {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    
+    section .desc ul {
+        
+        gap: .5rem;
+    }
+    
+    section .desc ul button {
+        padding: .5rem 1.5rem;
+     
+    }
+    
+
+
 
     footer {
         display: flex;
@@ -351,9 +450,87 @@ footer .foot div ul .fa {
         font-size: 1rem;
     }
 
+    section {
+        background-color: #E6DACE;
+        background: linear-gradient(to right, #E6DACE 35%, white 0%);
+        padding: 8rem;
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1.5rem;
+    }
+    
+    section .foto {
+        /* margin-left: 15%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F4ECE6;
+        box-shadow: -9px 9px 16px 0px rgba(0,0,0,0.20);
+        width: 100%;
+    }
+    
+    section .foto div {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 auto; */
+        justify-content: center;
+        padding: 3rem 2rem;
+        gap: 2rem;
+    }
+    
+    section .foto div img {
+        width: 13rem;
+        height: 13rem;
+        object-fit: cover;
+        border-radius: 100%;
+        margin: 0 auto;
+        cursor: zoom-in;
+    }
+    section .foto div img:hover {
+        transform: scale(1.3);
+        transition: all 1s ease-in-out .5s;
+    }
+    
+    
+    section .desc {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+    }
+    
+    section .desc h1 {
+        font-size: 4rem;
+        font-weight: 800;
+        font-family: 'poppins';
+    }
+    
+    section .desc h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        }
+    
+    section .desc ul {
+        gap: .5rem;
+    }
+    
+    section .desc ul button {
+        padding: .5rem 2rem;
+        font-size: 1rem;
+    }
+    
+    section .desc p {
+        font-size: 1rem;
+    }
     
     
 }
+
+
 
 
 
@@ -366,6 +543,11 @@ footer .foot div ul .fa {
 
     footer .foot div ul {
         justify-content: center;
+    }
+
+
+    section {
+        padding: 5rem;
     }
 }
 

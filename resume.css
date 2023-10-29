@@ -299,6 +299,24 @@ footer .foot div ul .fa {
 
 }
 
+
+@media (max-width: 1300px) {
+    .resume .box div.atas {
+        width: 65%;
+    }
+ 
+    
+    .resume .box .bagian {
+        width: 65%;
+       
+    }
+
+    .resume .keahlian {
+        width: 65%;
+    }
+}
+
+
 @media (max-width: 900px) {
 
     nav ul div li {
@@ -323,6 +341,22 @@ footer .foot div ul .fa {
     }
 
 
+
+    .resume .box div.atas {
+        width: 80%;
+    }
+ 
+    
+    .resume .box .bagian {
+        width: 80%;
+       
+    }
+
+
+    .resume .keahlian {
+        width: 80%;
+    }
+    
 
     footer {
         display: flex;
@@ -368,7 +402,16 @@ footer .foot div ul .fa {
         font-size: 1rem;
     }
 
-    
+    .resume .keahlian {
+        gap: 3rem;
+    }
+
+    .resume .keahlian section .list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        width: 80%;
+    }
     
 }
 
