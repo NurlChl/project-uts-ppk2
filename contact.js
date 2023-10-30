@@ -27,6 +27,8 @@ function klikForm () {
     document.getElementById("popup").innerHTML = arrPesan
     
     setTimeout(()=> (document.getElementById("popup").style.visibility = "hidden"), 3000)
+    setTimeout(()=> (window.location = "contact.html"), 3000)
+
 
     
 }
